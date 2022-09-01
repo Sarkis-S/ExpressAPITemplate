@@ -4,7 +4,7 @@ env:
     - CC_TEST_REPORTER_ID=4ba6f881e6d94b0858e0fb391353a0b14c993f4f32949108450fb6d15b272380
 matrix:
   include:
-  - node_js: '12'
+  - node_js: '14'
 cache:
   directories: [node_modules]
 install:
